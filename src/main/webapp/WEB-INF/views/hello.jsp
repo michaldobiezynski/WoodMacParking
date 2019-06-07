@@ -15,14 +15,20 @@
 
         <input type="submit" value="Login" name="submit"
                class="btn btn-primary" />
-
-        <input type="submit" value="Help" name="submit"
-               class="btn btn-primary" />
-
-        <input type="submit" value="Exit" name="submit"
-               class="btn btn-primary" />
-
     </div>
+
+        <div class="col-6 offset-3 align-self-center">
+
+    <input type="submit" value="Help" name="submit"
+           class="btn btn-primary" />
+
+        </div>
+        <div class="col-6 offset-3 align-self-center">
+
+    <input type="submit" value="Exit" name="submit"
+           class="btn btn-primary" />
+
+        </div>
 
     <%@ include file="footer.jsp"%>
 </div>

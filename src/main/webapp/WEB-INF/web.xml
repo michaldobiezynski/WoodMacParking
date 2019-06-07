@@ -6,7 +6,18 @@
          version="3.0">
     
     <display-name>WoodMac Parking</display-name>
-    
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <context-param>
+    <param-name>contextConfigLocation</param-name>
+        <param-value>
+        /WEB-INF/HelloWeb-servlet.xml
+        </param-value>
+    </context-param>
+
     <servlet>
         <servlet-name>HelloWeb</servlet-name>
         <servlet-class>

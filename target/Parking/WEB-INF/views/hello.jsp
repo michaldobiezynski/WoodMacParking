@@ -13,20 +13,22 @@
 
     <div class="col-6 offset-3 align-self-center">
 
-        <div class="card">
+        <input type="submit" value="Login" name="submit"
+               class="btn btn-primary" />
+    </div>
 
-            <div class="card-header bg-info text-white">
-                Welcome
-            </div>
+        <div class="col-6 offset-3 align-self-center">
 
-            <div class="card-body">
-
-                    <input type="submit" value="Login" name="submit"
-                           class="btn btn-primary" />
-            </div>
+    <input type="submit" value="Help" name="submit"
+           class="btn btn-primary" />
 
         </div>
-    </div>
+        <div class="col-6 offset-3 align-self-center">
+
+    <input type="submit" value="Exit" name="submit"
+           class="btn btn-primary" />
+
+        </div>
 
     <%@ include file="footer.jsp"%>
 </div>
