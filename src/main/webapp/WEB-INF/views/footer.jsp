@@ -3,7 +3,7 @@
         <footer class="footer">
             <p class="text-center">
                 <br />
-                Copright &copy; - PSBank <%= new java.util.Date().getYear() + 1900%>
+                Copright &copy; - Michal Dobiezynski <%= new java.util.Date().getYear() + 1900%>
             </p>
         </footer>
     </div>

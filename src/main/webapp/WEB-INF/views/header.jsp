@@ -6,6 +6,6 @@
 <div class="row">
     <div class ="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"></div>
     <div class="header clearfix">
-        <h2 class="text-muted">PS Bank</h2>
+        <h2 class="text-muted">WoodMac Parking</h2>
     </div>
 </div>
