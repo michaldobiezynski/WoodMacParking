@@ -32,7 +32,14 @@
       <artifactId>spring-webmvc</artifactId>
       <version>4.3.3.RELEASE</version>
     </dependency>
-    
+
+    <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
   </dependencies>
 
   <build>
