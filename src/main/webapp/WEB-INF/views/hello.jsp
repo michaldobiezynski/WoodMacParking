@@ -1,34 +1,55 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
-    <title>PS Bank: Login Form</title>
+    <title>WoodMacParking</title>
 </head>
 <body>
-<div class="container">
-    <%@include file="header.jsp"%>
 
-    <div class="col-6 offset-3 align-self-center">
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+            <div class="card" style="height: 200px">
+                <!--  Logo -->
+                <img src="<spring:url value='/resources/images/logo.png'/>"
+                     class="card-img-top"/>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-6 offset-3 align-self-center">
 
         <input type="submit" value="Login" name="submit"
                class="btn btn-primary" />
+        </div>
     </div>
 
+    <div class="row">
         <div class="col-6 offset-3 align-self-center">
-
-    <input type="submit" value="Help" name="submit"
-           class="btn btn-primary" />
-
+            <input type="submit" value="Help" name="submit"
+            class="btn btn-primary" />
         </div>
+    </div>
+
+    <div class="row">
         <div class="col-6 offset-3 align-self-center">
-
-    <input type="submit" value="Exit" name="submit"
+            <input type="submit" value="Exit" name="submit"
            class="btn btn-primary" />
-
         </div>
+    </div>
 
     <%@ include file="footer.jsp"%>
 </div>
